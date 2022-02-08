@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Franklin', sans-serif;
+  color: $grey;
+}
+
+h1 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.container{
+  max-width: 1180px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn__link{
+  font-size: 12px;
+  padding: 20px 30px;
+  background-color: #AC1313;
+  color: white;
+  border-radius: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.btn__link:hover{
+  color: black;
+}
+
